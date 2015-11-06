@@ -1,0 +1,395 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-10984
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=4 type=0 insize=13030 outsize=11024 kw=UNITY_COLORSPACE_GAMMA _SUNDISK_SIMPLE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13030 outsize=1899 kw=UNITY_COLORSPACE_GAMMA _SUNDISK_SIMPLE pd= ok=1
+Cmd: preprocess
+  insize=938 outsize=237 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1000 outsize=1087 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1000 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1401 outsize=367 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1333 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1333 outsize=754 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=751 outsize=3533 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=751 outsize=380 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=982 outsize=3979 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=982 outsize=10618 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=938 outsize=4101 kw=DIRECTIONAL SHADOWS_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=938 outsize=5515 kw=DIRECTIONAL SHADOWS_OFF pd= ok=1
+Cmd: preprocess
+  insize=1398 outsize=364 ok=1
+Cmd: preprocess
+  insize=1398 outsize=364 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1420 outsize=1379 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1420 outsize=1704 kw= pd= ok=1
+Cmd: preprocess
+  insize=960 outsize=330 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=928 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=928 outsize=754 kw= pd= ok=1
+Cmd: preprocess
+  insize=934 outsize=331 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=902 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=902 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=934 outsize=331 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (47): cannot implicitly convert from 'float2' to 'float4'\nCompiling Vertex program
+  api=4 type=0 insize=902 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=934 outsize=331 ok=1
+Cmd: preprocess
+  insize=984 outsize=331 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (55): syntax error: unexpected token 'return'\nCompiling Vertex program
+  api=4 type=0 insize=952 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=985 outsize=331 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=953 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=953 outsize=673 kw= pd= ok=1
+Cmd: preprocess
+  insize=985 outsize=330 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=953 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=953 outsize=673 kw= pd= ok=1
+Cmd: preprocess
+  insize=985 outsize=331 ok=1
+Cmd: preprocess
+  insize=1011 outsize=357 ok=1
+Cmd: preprocess
+  insize=1011 outsize=356 ok=1
+Cmd: preprocess
+  insize=1011 outsize=357 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=953 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=953 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1019 outsize=357 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=961 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=961 outsize=689 kw= pd= ok=1
+Cmd: preprocess
+  insize=1011 outsize=357 ok=1
+Cmd: preprocess
+  insize=1010 outsize=357 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=952 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=952 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1009 outsize=357 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=951 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=951 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1011 outsize=357 ok=1
+Cmd: preprocess
+  insize=1010 outsize=357 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=952 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=952 outsize=713 kw= pd= ok=1
+Cmd: preprocess
+  insize=1005 outsize=357 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (55): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=4 type=0 insize=947 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1010 outsize=357 ok=1
+Cmd: preprocess
+  insize=1041 outsize=388 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=952 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=952 outsize=713 kw= pd= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=952 outsize=131 kw= pd= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=952 outsize=93 kw= pd= ok=1
+Cmd: preprocess
+  insize=1014 outsize=388 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=925 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=925 outsize=616 kw= pd= ok=1
+Cmd: preprocess
+  insize=1032 outsize=388 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=943 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=943 outsize=713 kw= pd= ok=1
+Cmd: preprocess
+  insize=1065 outsize=421 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=943 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=943 outsize=713 kw= pd= ok=1
+Cmd: preprocess
+  insize=1126 outsize=482 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=943 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=943 outsize=713 kw= pd= ok=1
+Cmd: preprocess
+  insize=1126 outsize=482 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=943 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=943 outsize=713 kw= pd= ok=1
+Cmd: preprocess
+  insize=1120 outsize=482 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=937 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=937 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1089 outsize=451 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=937 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=937 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1198 outsize=560 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=937 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=937 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1200 outsize=562 ok=1
+Cmd: preprocess
+  insize=1200 outsize=562 ok=1
+Cmd: preprocess
+  insize=1202 outsize=564 ok=1
+Cmd: preprocess
+  insize=1200 outsize=562 ok=1
+Cmd: preprocess
+  insize=1202 outsize=564 ok=1
+Cmd: preprocess
+  insize=1200 outsize=562 ok=1
+Cmd: preprocess
+  insize=1202 outsize=564 ok=1
+Cmd: preprocess
+  insize=1198 outsize=560 ok=1
+Cmd: preprocess
+  insize=1147 outsize=509 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=937 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=937 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1105 outsize=501 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (63): 'tex2D': no matching 2 parameter intrinsic function; Possible intrinsic functions are: tex2D(sampler2D, float2|half2|min10float2|min16float2) tex2D(sampler2D, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2)\nCompiling Vertex program
+  api=4 type=0 insize=902 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1104 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=901 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=901 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1108 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=905 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=905 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1104 outsize=502 ok=1
+Cmd: preprocess
+  insize=1426 outsize=537 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1188 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1188 outsize=1193 kw= pd= ok=1
+Cmd: preprocess
+  insize=1104 outsize=502 ok=1
+Cmd: preprocess
+  insize=1123 outsize=521 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=901 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=901 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1133 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=930 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=930 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1126 outsize=495 ok=1
+Cmd: preprocess
+  insize=1126 outsize=494 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=930 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=930 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1391 outsize=494 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1195 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1195 outsize=1193 kw= pd= ok=1
+Cmd: preprocess
+  insize=1152 outsize=495 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=956 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=956 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1388 outsize=495 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (67): undeclared identifier '_AlphaTex'\nCompiling Vertex program
+  api=4 type=0 insize=1192 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1411 outsize=494 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (72): unrecognized identifier 'v2f'\nCompiling Vertex program
+  api=4 type=0 insize=1215 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1417 outsize=495 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (74): 'SampleSpriteTexture': no matching 1 parameter function\nCompiling Vertex program
+  error: 2 plat 4 at (74): invalid subscript 'texcoord'\nCompiling Vertex program
+  api=4 type=0 insize=1221 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1133 outsize=502 ok=1
+Cmd: preprocess
+  insize=1422 outsize=533 ok=1
+Cmd: preprocess
+  insize=1361 outsize=533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1127 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1127 outsize=868 kw= pd= ok=1
+Cmd: preprocess
+  insize=1380 outsize=533 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (79): 'tex2D': no matching 2 parameter intrinsic function; Possible intrinsic functions are: tex2D(sampler2D, float2|half2|min10float2|min16float2) tex2D(sampler2D, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2, float2|half2|min10float2|min16float2)\nCompiling Vertex program
+  error: 2 plat 4 at (79): undeclared identifier 'uv'\nCompiling Vertex program
+  api=4 type=0 insize=1146 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1389 outsize=533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1155 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1155 outsize=673 kw= pd= ok=1
+Cmd: preprocess
+  insize=1400 outsize=533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1166 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1166 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1330 outsize=533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1096 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1096 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1205 outsize=531 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=971 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=971 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1136 outsize=533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=902 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=902 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1106 outsize=533 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (50): Output value 'vert' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=872 outsize=1119 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=872 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1139 outsize=533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=905 outsize=1209 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=905 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1102 outsize=532 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=868 outsize=1209 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=868 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1069 outsize=533 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (49): Output value 'vert' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=835 outsize=1119 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=835 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1046 outsize=532 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=812 outsize=1063 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=812 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1105 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=902 outsize=1006 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=902 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1130 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=927 outsize=1063 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=927 outsize=729 kw= pd= ok=1
+Cmd: preprocess
+  insize=1184 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=981 outsize=1209 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=981 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1193 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=990 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=990 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1193 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=990 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=990 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1191 outsize=502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=988 outsize=1266 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=988 outsize=770 kw= pd= ok=1
+Cmd: preprocess
+  insize=1193 outsize=504 ok=1
+Cmd: preprocess
+  insize=1191 outsize=502 ok=1
