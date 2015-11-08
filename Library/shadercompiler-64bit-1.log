@@ -1,118 +1,168 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-11888
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9072
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=762 outsize=257 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=804 outsize=1006 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=804 outsize=721 kw= pd= ok=1
+  insize=773 outsize=268 ok=1
 Cmd: preprocess
-  insize=1196 outsize=507 ok=1
+  insize=773 outsize=268 ok=1
 Cmd: preprocess
-  insize=1155 outsize=498 ok=1
+  insize=1359 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=956 outsize=1266 kw= pd= ok=1
+  api=4 type=0 insize=1098 outsize=1266 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=956 outsize=770 kw= pd= ok=1
+  api=4 type=1 insize=1098 outsize=1160 kw= pd= ok=1
 Cmd: preprocess
-  insize=1151 outsize=494 ok=1
+  insize=1473 outsize=560 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (71): undeclared identifier '_MaskTexture'\nCompiling Vertex program
+  api=4 type=0 insize=1212 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1155 outsize=494 ok=1
+  insize=1506 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=960 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=960 outsize=770 kw= pd= ok=1
+  error: 2 plat 4 at (72): undeclared identifier '_MaskTexture'\nCompiling Vertex program
+  api=4 type=0 insize=1245 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1155 outsize=494 ok=1
+  insize=1510 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=960 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=960 outsize=770 kw= pd= ok=1
+  error: 2 plat 4 at (73): syntax error: unexpected token 'half4'\nCompiling Vertex program
+  error: 2 plat 4 at (74): undeclared identifier 'tex'\nCompiling Vertex program
+  api=4 type=0 insize=1249 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1155 outsize=494 ok=1
+  insize=1511 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=960 outsize=1266 kw= pd= ok=1
+  api=4 type=0 insize=1250 outsize=1453 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=960 outsize=770 kw= pd= ok=1
+  api=4 type=1 insize=1250 outsize=721 kw= pd= ok=1
 Cmd: preprocess
-  insize=1217 outsize=494 ok=1
+  insize=1507 outsize=560 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (69): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
-  api=4 type=0 insize=1022 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=1246 outsize=1453 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1246 outsize=721 kw= pd= ok=1
 Cmd: preprocess
-  insize=1216 outsize=493 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1021 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1021 outsize=1022 kw= pd= ok=1
+  insize=1511 outsize=560 ok=1
 Cmd: preprocess
-  insize=1249 outsize=527 ok=1
+  insize=396 outsize=393 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1021 outsize=1266 kw= pd= ok=1
+  api=4 type=0 insize=1685 outsize=1379 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1021 outsize=1022 kw= pd= ok=1
+  api=4 type=1 insize=1685 outsize=973 kw= pd= ok=1
 Cmd: preprocess
-  insize=1248 outsize=526 ok=1
+  insize=1511 outsize=560 ok=1
 Cmd: preprocess
-  insize=1323 outsize=524 ok=1
+  insize=1538 outsize=560 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (73): syntax error: unexpected token '}'\nCompiling Vertex program
-  api=4 type=0 insize=1096 outsize=0 kw= pd= ok=0
+  error: 2 plat 4 at (63): undeclared identifier 'TRANSFORM_TEX'\nCompiling Vertex program
+  api=4 type=0 insize=1277 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1324 outsize=526 ok=1
+  insize=1562 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1097 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1097 outsize=1160 kw= pd= ok=1
+  error: 2 plat 4 at (63): undeclared identifier '_MainTex_ST'\nCompiling Vertex program
+  api=4 type=0 insize=1301 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1370 outsize=526 ok=1
+  insize=1564 outsize=560 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (71): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
-  api=4 type=0 insize=1143 outsize=0 kw= pd= ok=0
+  error: 2 plat 4 at (64): undeclared identifier '_MainTex_ST'\nCompiling Vertex program
+  api=4 type=0 insize=1303 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1369 outsize=526 ok=1
+  insize=1589 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1142 outsize=1266 kw= pd= ok=1
+  api=4 type=0 insize=1328 outsize=1453 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1142 outsize=599 kw= pd= ok=1
+  api=4 type=1 insize=1328 outsize=721 kw= pd= ok=1
 Cmd: preprocess
-  insize=1371 outsize=526 ok=1
+  insize=1587 outsize=559 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1144 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1144 outsize=1160 kw= pd= ok=1
+  error: 2 plat 4 at (64): undeclared identifier '_MainTex_ST'\nCompiling Vertex program
+  api=4 type=0 insize=1326 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1323 outsize=526 ok=1
+  insize=1590 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1096 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1096 outsize=1160 kw= pd= ok=1
+  error: 2 plat 4 at (64): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1329 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1323 outsize=526 ok=1
+  insize=663 outsize=236 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1096 outsize=1266 kw= pd= ok=1
+  api=4 type=0 insize=723 outsize=1152 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1096 outsize=1160 kw= pd= ok=1
+  api=4 type=1 insize=723 outsize=729 kw= pd= ok=1
 Cmd: preprocess
-  insize=1323 outsize=525 ok=1
+  insize=1587 outsize=559 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1096 outsize=1266 kw= pd= ok=1
+  error: 2 plat 4 at (64): undeclared identifier '_MainTex_ST'\nCompiling Vertex program
+  api=4 type=0 insize=1326 outsize=0 kw= pd= ok=0
 Cmd: compileSnippet
-  api=4 type=1 insize=1096 outsize=1160 kw= pd= ok=1
+  api=4 type=0 insize=541 outsize=3533 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=541 outsize=453 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6924 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6924 outsize=1314 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3695 outsize=2753 kw=DIRECTIONAL pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3695 outsize=1168 kw=DIRECTIONAL pd= ok=1
 Cmd: preprocess
-  insize=1322 outsize=526 ok=1
+  insize=1593 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1095 outsize=1266 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1095 outsize=1160 kw= pd= ok=1
+  error: 2 plat 4 at (64): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1332 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=1322 outsize=525 ok=1
+  insize=1592 outsize=559 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1095 outsize=1266 kw= pd= ok=1
+  error: 2 plat 4 at (64): undeclared identifier '_MainTex'\nCompiling Vertex program
+  api=4 type=0 insize=1331 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1588 outsize=560 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1095 outsize=1160 kw= pd= ok=1
+  error: 2 plat 4 at (64): undeclared identifier '_MainTex'\nCompiling Vertex program
+  api=4 type=0 insize=1327 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1586 outsize=560 ok=1
 Cmd: compileSnippet
-  api=1 type=0 insize=1095 outsize=160 kw= pd= ok=1
+  error: 2 plat 4 at (64): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1325 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1620 outsize=559 ok=1
 Cmd: compileSnippet
-  api=1 type=1 insize=1095 outsize=244 kw= pd= ok=1
+  error: 2 plat 4 at (65): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1359 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1617 outsize=560 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (65): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1356 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1617 outsize=560 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (65): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1356 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1586 outsize=560 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (64): invalid subscript 'xy'\nCompiling Vertex program
+  api=4 type=0 insize=1325 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1586 outsize=560 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (64): undeclared identifier '_MainTex_ST'\nCompiling Vertex program
+  api=4 type=0 insize=1325 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1609 outsize=560 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1348 outsize=1453 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1348 outsize=721 kw= pd= ok=1
+Cmd: preprocess
+  insize=1570 outsize=560 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1309 outsize=1453 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1309 outsize=1209 kw= pd= ok=1
+Cmd: preprocess
+  insize=1551 outsize=560 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1290 outsize=1501 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1290 outsize=1209 kw= pd= ok=1
