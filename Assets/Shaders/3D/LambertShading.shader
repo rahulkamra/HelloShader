@@ -47,7 +47,9 @@
 		vertexOut vo;
 		vo.finalPos = mul(UNITY_MATRIX_MVP, vi.position);
 		
-		float3 normalDirection = normalize(float4(vi.normal , 0.0).xyz);
+		float3 normalDirection = normalize(mul(_Object2World,float4(vi.normal , 0.0)).xyz); 
+		//normals are in the object space we need to convert into the world space.
+		
 		float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
 		
 		float3 diffuse = dot(normalDirection , lightDirection); // this value is from -1 to  1

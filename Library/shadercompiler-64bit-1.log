@@ -1,3 +1,40 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3292
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7708
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=1414 outsize=295 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1418 outsize=2054 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1418 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1415 outsize=294 ok=1
+Cmd: preprocess
+  insize=1507 outsize=295 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (51): redefinition of 'normalDirection'\nCompiling Vertex program
+  api=4 type=0 insize=1511 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1509 outsize=295 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1513 outsize=2298 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1513 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1509 outsize=295 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1513 outsize=2103 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1513 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1598 outsize=295 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1602 outsize=2330 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1602 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1517 outsize=295 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1521 outsize=2330 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1521 outsize=583 kw= pd= ok=1
