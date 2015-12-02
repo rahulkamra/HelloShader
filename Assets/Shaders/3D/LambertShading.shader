@@ -23,9 +23,6 @@
 		uniform fixed _Power;
 	//unity variables
 	uniform fixed4 _LightColor0;
-	//uniform float4x4 _Object2World;
-	//uniform float4x4 _World2Object;
-	//float4 _WorldSpaceLightPos0;
 
 	struct vertexIn
 	{

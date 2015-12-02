@@ -1,40 +1,754 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7708
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-12208
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=1414 outsize=295 ok=1
+  insize=785 outsize=236 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1418 outsize=2054 kw= pd= ok=1
+  api=4 type=0 insize=848 outsize=1266 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1418 outsize=583 kw= pd= ok=1
+  api=4 type=1 insize=848 outsize=583 kw= pd= ok=1
 Cmd: preprocess
-  insize=1415 outsize=294 ok=1
-Cmd: preprocess
-  insize=1507 outsize=295 ok=1
-Cmd: compileSnippet
-  error: 2 plat 4 at (51): redefinition of 'normalDirection'\nCompiling Vertex program
-  api=4 type=0 insize=1511 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=1509 outsize=295 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1513 outsize=2298 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1513 outsize=583 kw= pd= ok=1
-Cmd: preprocess
-  insize=1509 outsize=295 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1513 outsize=2103 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1513 outsize=583 kw= pd= ok=1
-Cmd: preprocess
-  insize=1598 outsize=295 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1602 outsize=2330 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1602 outsize=583 kw= pd= ok=1
+  insize=1196 outsize=507 ok=1
 Cmd: preprocess
   insize=1517 outsize=295 ok=1
+Cmd: preprocess
+  insize=1322 outsize=525 ok=1
+Cmd: preprocess
+  insize=1551 outsize=560 ok=1
+Cmd: preprocess
+  insize=1412 outsize=294 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1521 outsize=2330 kw= pd= ok=1
+  api=4 type=0 insize=1416 outsize=2330 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1521 outsize=583 kw= pd= ok=1
+  api=4 type=1 insize=1416 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1000 outsize=1282 ok=1
+Cmd: preprocess
+  insize=1000 outsize=1282 ok=1
+Cmd: preprocess
+  insize=1410 outsize=295 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1414 outsize=2330 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1414 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1418 outsize=303 ok=1
+Cmd: preprocess
+  insize=1479 outsize=364 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1414 outsize=2330 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1414 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1659 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): undeclared identifier '_WorldSpaceCameraPos0'\nCompiling Vertex program
+  api=4 type=0 insize=1552 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1658 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (57): syntax error: unexpected token 'float3'\nCompiling Vertex program
+  error: 2 plat 4 at (60): undeclared identifier 'diffuse'\nCompiling Vertex program
+  api=4 type=0 insize=1551 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1661 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1554 outsize=1355 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1554 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1672 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1565 outsize=1509 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1565 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1676 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1569 outsize=1509 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1569 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1676 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1569 outsize=1550 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1569 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1676 outsize=406 ok=1
+Cmd: preprocess
+  insize=1669 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): 'normalize': no matching 0 parameter intrinsic function; Possible intrinsic functions are: normalize(floatM|halfM|min10floatM|min16floatM)\nCompiling Vertex program
+  error: 2 plat 4 at (56): syntax error: unexpected token ';'\nCompiling Vertex program
+  api=4 type=0 insize=1562 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1673 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): 'normalize': no matching 0 parameter intrinsic function; Possible intrinsic functions are: normalize(floatM|halfM|min10floatM|min16floatM)\nCompiling Vertex program
+  error: 2 plat 4 at (56): syntax error: unexpected token ';'\nCompiling Vertex program
+  api=4 type=0 insize=1566 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1674 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1567 outsize=1290 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1567 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1693 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1586 outsize=1558 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1586 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1682 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1575 outsize=1664 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1575 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1693 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1586 outsize=1818 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1586 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1756 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1649 outsize=2078 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1649 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1777 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1670 outsize=2704 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1670 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1786 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1679 outsize=2785 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1679 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1796 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1689 outsize=3281 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1689 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1838 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (62): redefinition of 'diffuse'\nCompiling Vertex program
+  api=4 type=0 insize=1731 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1831 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (63): syntax error: unexpected token 'float3'\nCompiling Vertex program
+  error: 2 plat 4 at (66): undeclared identifier 'specular'\nCompiling Vertex program
+  api=4 type=0 insize=1724 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1830 outsize=406 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (67): syntax error: unexpected token '*'\nCompiling Vertex program
+  api=4 type=0 insize=1723 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1828 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1721 outsize=3029 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1721 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1846 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1739 outsize=3175 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1739 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1837 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1730 outsize=3078 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1730 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1848 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1741 outsize=3078 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1741 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1797 outsize=406 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1690 outsize=3078 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1690 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1797 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1690 outsize=3078 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1690 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1810 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1703 outsize=3386 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1703 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1809 outsize=404 ok=1
+Cmd: preprocess
+  insize=1809 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1703 outsize=3346 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1703 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1782 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1676 outsize=3232 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1676 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1798 outsize=405 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=4 type=0 insize=1692 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1798 outsize=405 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=4 type=0 insize=1692 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1802 outsize=405 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): 'normalize': no matching 0 parameter intrinsic function; Possible intrinsic functions are: normalize(floatM|halfM|min10floatM|min16floatM)\nCompiling Vertex program
+  error: 2 plat 4 at (56): syntax error: unexpected token ';'\nCompiling Vertex program
+  api=4 type=0 insize=1696 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1803 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1697 outsize=3232 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1697 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1780 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1674 outsize=3078 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1674 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1782 outsize=405 ok=1
+Cmd: preprocess
+  insize=1788 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1682 outsize=3281 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1682 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1829 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1723 outsize=3281 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1723 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1852 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1746 outsize=3411 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1746 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1869 outsize=404 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1763 outsize=3476 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1763 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1878 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1772 outsize=3541 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1772 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1869 outsize=405 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1763 outsize=3484 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1763 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1878 outsize=405 ok=1
+Cmd: preprocess
+  insize=1013 outsize=1295 ok=1
+Cmd: preprocess
+  insize=1878 outsize=401 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1776 outsize=3541 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1776 outsize=583 kw= pd= ok=1
+Cmd: preprocess
+  insize=1885 outsize=408 ok=1
+Cmd: preprocess
+  insize=1983 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (42): Duplicate system value semantic definition: output semantic 'SV_POSITION' and output semantic 'POSITION'\nCompiling Vertex program
+  error: 2 plat 4 at (43): Duplicate system value semantic definition: output semantic 'POSITION' and output semantic 'SV_POSITION'\nCompiling Vertex program
+  api=4 type=0 insize=1874 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1980 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1871 outsize=1404 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1871 outsize=2988 kw= pd= ok=1
+Cmd: preprocess
+  insize=2050 outsize=407 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (54): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=1941 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1992 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (54): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=1883 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1993 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (54): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=1884 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1993 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (54): cannot implicitly convert from 'const float3' to 'float4'\nCompiling Vertex program
+  api=4 type=0 insize=1884 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1993 outsize=407 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (54): variable 'vo' used without having been completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=1884 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1990 outsize=407 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): Duplicate non-system value semantic definition: output semantic 'NORMAL' and output semantic 'NORMAL'\nCompiling Vertex program
+  error: 2 plat 4 at (45): output NORMAL0 used more than once\nCompiling Vertex program
+  error: 1 plat 4 at (45): Duplicate non-system value semantic definition: output semantic 'NORMAL' and output semantic 'NORMAL'\nCompiling Vertex program
+  api=4 type=0 insize=1881 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1989 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1880 outsize=1932 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1880 outsize=2419 kw= pd= ok=1
+Cmd: preprocess
+  insize=1986 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (42): Duplicate system value semantic definition: output semantic 'SV_POSITION' and output semantic 'SV_POSITION'\nCompiling Vertex program
+  error: 2 plat 4 at (43): Duplicate system value semantic definition: output semantic 'SV_POSITION' and output semantic 'SV_POSITION'\nCompiling Vertex program
+  api=4 type=0 insize=1877 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2035 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (52): invalid subscript 'normal'\nCompiling Vertex program
+  api=4 type=0 insize=1926 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2035 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (55): invalid subscript 'normal'\nCompiling Vertex program
+  api=4 type=0 insize=1926 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2007 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1898 outsize=1745 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1898 outsize=2606 kw= pd= ok=1
+Cmd: preprocess
+  insize=1980 outsize=408 ok=1
+Cmd: preprocess
+  insize=2007 outsize=408 ok=1
+Cmd: preprocess
+  insize=2067 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (55): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=1958 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2067 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (55): variable 'vo' used without having been completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=1958 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2064 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (46): Duplicate non-system value semantic definition: output semantic 'COLOR' and output semantic 'COLOR'\nCompiling Vertex program
+  error: 2 plat 4 at (47): output COLOR0 used more than once\nCompiling Vertex program
+  error: 1 plat 4 at (47): Duplicate non-system value semantic definition: output semantic 'COLOR' and output semantic 'COLOR'\nCompiling Vertex program
+  api=4 type=0 insize=1955 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2068 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1959 outsize=2127 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1959 outsize=2314 kw= pd= ok=1
+Cmd: preprocess
+  insize=2068 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1959 outsize=1973 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1959 outsize=2468 kw= pd= ok=1
+Cmd: preprocess
+  insize=2147 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (60): unrecognized identifier 'viewDirection'\nCompiling Vertex program
+  error: 2 plat 4 at (60): unrecognized identifier 'vo'\nCompiling Vertex program
+  api=4 type=0 insize=2038 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2147 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2038 outsize=2346 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2038 outsize=2257 kw= pd= ok=1
+Cmd: preprocess
+  insize=2121 outsize=408 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (59): 'normalize': no matching 1 parameter intrinsic function; Possible intrinsic functions are: normalize(floatM|halfM|min10floatM|min16floatM)\nCompiling Vertex program
+  error: 2 plat 4 at (59): invalid subscript 'posWorld'\nCompiling Vertex program
+  api=4 type=0 insize=2012 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2118 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2009 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2009 outsize=2208 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=577 outsize=3533 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=577 outsize=453 kw=SHADOWS_DEPTH pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7194 outsize=4849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7194 outsize=1989 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6445 outsize=3979 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6445 outsize=2826 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: preprocess
+  insize=1002 outsize=1284 ok=1
+Cmd: preprocess
+  insize=2114 outsize=408 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2005 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2005 outsize=2208 kw= pd= ok=1
+Cmd: preprocess
+  insize=2096 outsize=390 ok=1
+Cmd: preprocess
+  insize=2098 outsize=392 ok=1
+Cmd: preprocess
+  insize=2176 outsize=392 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2083 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2083 outsize=989 kw= pd= ok=1
+Cmd: preprocess
+  insize=2179 outsize=392 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2086 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2086 outsize=1054 kw= pd= ok=1
+Cmd: preprocess
+  insize=2191 outsize=392 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (82): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=2098 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2195 outsize=392 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (82): invalid subscript 'xyz'\nCompiling Vertex program
+  api=4 type=0 insize=2102 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2191 outsize=392 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (82): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=2098 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2191 outsize=392 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (83): cannot implicitly convert from 'half3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=2098 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2191 outsize=392 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (82): cannot implicitly convert from 'const float3' to 'half4'\nCompiling Vertex program
+  api=4 type=0 insize=2098 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2180 outsize=392 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2087 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2087 outsize=1054 kw= pd= ok=1
+Cmd: preprocess
+  insize=2216 outsize=392 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2123 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2123 outsize=1095 kw= pd= ok=1
+Cmd: preprocess
+  insize=2200 outsize=392 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (83): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=4 type=0 insize=2107 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2201 outsize=392 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2108 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2108 outsize=1420 kw= pd= ok=1
+Cmd: preprocess
+  insize=2254 outsize=445 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2108 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2108 outsize=1420 kw= pd= ok=1
+Cmd: preprocess
+  insize=2297 outsize=488 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2108 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2108 outsize=1420 kw= pd= ok=1
+Cmd: preprocess
+  insize=2290 outsize=481 ok=1
+Cmd: preprocess
+  insize=2296 outsize=487 ok=1
+Cmd: preprocess
+  insize=2299 outsize=490 ok=1
+Cmd: preprocess
+  insize=2355 outsize=489 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2164 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2164 outsize=1420 kw= pd= ok=1
+Cmd: preprocess
+  insize=2345 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2154 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2154 outsize=1095 kw= pd= ok=1
+Cmd: preprocess
+  insize=2355 outsize=489 ok=1
+Cmd: preprocess
+  insize=2347 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2156 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2156 outsize=1249 kw= pd= ok=1
+Cmd: preprocess
+  insize=2398 outsize=489 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (89): undeclared identifier '_rimColor'\nCompiling Vertex program
+  api=4 type=0 insize=2207 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2398 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2207 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2207 outsize=1249 kw= pd= ok=1
+Cmd: preprocess
+  insize=2406 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2215 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2215 outsize=1696 kw= pd= ok=1
+Cmd: preprocess
+  insize=2428 outsize=490 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (85): undeclared identifier 'finalColor'\nCompiling Vertex program
+  api=4 type=0 insize=2237 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2430 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2239 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2239 outsize=1696 kw= pd= ok=1
+Cmd: preprocess
+  insize=2424 outsize=490 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (93): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=4 type=0 insize=2233 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=2414 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2223 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2223 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=2408 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2217 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2217 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=2439 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2248 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2248 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=1001 outsize=1283 ok=1
+Cmd: preprocess
+  insize=2438 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2247 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2247 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=2437 outsize=489 ok=1
+Cmd: preprocess
+  insize=4482 outsize=588 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2250 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2250 outsize=2671 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2249 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2249 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=4520 outsize=624 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2250 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2250 outsize=2671 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2252 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2252 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=4541 outsize=644 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2252 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2252 outsize=2671 kw= pd= ok=1
+Cmd: preprocess
+  insize=4537 outsize=640 ok=1
+Cmd: preprocess
+  insize=4395 outsize=640 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2110 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2110 outsize=2208 kw= pd= ok=1
+Cmd: preprocess
+  insize=4252 outsize=548 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (86): 'pow': no matching 2 parameter intrinsic function; Possible intrinsic functions are: pow(float|half|min10float|min16float, float|half|min10float|min16float)\nCompiling Vertex program
+  error: 2 plat 4 at (86): undeclared identifier '_RimPower'\nCompiling Vertex program
+  api=4 type=0 insize=2199 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=4122 outsize=548 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (89): undeclared identifier 'rimLighting'\nCompiling Vertex program
+  api=4 type=0 insize=2069 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=4108 outsize=548 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2055 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2055 outsize=2208 kw= pd= ok=1
+Cmd: preprocess
+  insize=4048 outsize=549 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2025 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2025 outsize=2086 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2080 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2080 outsize=2086 kw= pd= ok=1
+Cmd: preprocess
+  insize=4032 outsize=548 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2064 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2064 outsize=2086 kw= pd= ok=1
+Cmd: preprocess
+  insize=4031 outsize=547 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (155): undeclared identifier '_WorldSpaceLightPos1'\nCompiling Vertex program
+  api=4 type=0 insize=2064 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=4031 outsize=547 ok=1
+Cmd: preprocess
+  insize=4128 outsize=548 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2161 outsize=2233 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2161 outsize=2086 kw= pd= ok=1
+Cmd: preprocess
+  insize=4059 outsize=545 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2000 outsize=2103 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2000 outsize=2021 kw= pd= ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (163): syntax error: unexpected token '}'\nCompiling Vertex program
+  error: 2 plat 4 at (170): undeclared identifier 'diffuse'\nCompiling Vertex program
+  api=4 type=0 insize=2117 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=4149 outsize=550 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (82): syntax error: unexpected token '}'\nCompiling Vertex program
+  error: 2 plat 4 at (98): undeclared identifier 'atten'\nCompiling Vertex program
+  api=4 type=0 insize=2107 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=4151 outsize=549 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2109 outsize=2103 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2109 outsize=2021 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2100 outsize=2103 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2100 outsize=2021 kw= pd= ok=1
+Cmd: preprocess
+  insize=4221 outsize=549 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (83): syntax error: unexpected token '}'\nCompiling Vertex program
+  error: 2 plat 4 at (99): undeclared identifier 'atten'\nCompiling Vertex program
+  api=4 type=0 insize=2179 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=4257 outsize=549 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2215 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2215 outsize=2460 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2100 outsize=2103 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2100 outsize=2021 kw= pd= ok=1
+Cmd: preprocess
+  insize=4426 outsize=549 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2217 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2217 outsize=2460 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2267 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2267 outsize=2460 kw= pd= ok=1
+Cmd: preprocess
+  insize=4426 outsize=549 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2267 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2267 outsize=2460 kw= pd= ok=1
+Cmd: preprocess
+  insize=4511 outsize=550 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2352 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2352 outsize=2639 kw= pd= ok=1
+Cmd: preprocess
+  insize=4591 outsize=549 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2297 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2297 outsize=2639 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2352 outsize=2216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2352 outsize=2639 kw= pd= ok=1
