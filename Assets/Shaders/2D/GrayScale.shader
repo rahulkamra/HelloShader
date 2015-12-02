@@ -29,12 +29,12 @@
 		//pragma
 #pragma vertex vert
 #pragma fragment frag
-
+#include "UnityCG.cginc"
 		//variables
 		uniform sampler2D _MainTex;
 		uniform fixed4 _Color;
 		uniform fixed _Intr;
-
+		float4 _MainTex_ST;
 	struct vertexIn
 	{
 		fixed4 vertex:POSITION;
@@ -56,7 +56,7 @@
 	{
 		vertexOut vo;
 		vo.finalPos = mul(UNITY_MATRIX_MVP , vIn.vertex);
-		vo.uv = vIn.uv;
+		vo.uv = TRANSFORM_TEX(vIn.uv, _MainTex);
 		vo.color = vIn.color * _Color;
 		return vo;
 	}
