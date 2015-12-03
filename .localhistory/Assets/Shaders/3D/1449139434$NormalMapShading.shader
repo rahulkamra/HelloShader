@@ -149,8 +149,7 @@
 	Pass
 	{
 
-		Tags{ "LightMode" = "ForwardAdd" }
-		Blend One One
+		Tags{ "LightMode" = "ForwardBase" }
 		CGPROGRAM
 
 #pragma vertex vert

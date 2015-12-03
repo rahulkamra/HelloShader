@@ -49,8 +49,8 @@
 	struct vertexIn
 	{
 		float4 position : POSITION;
-		fixed2 texcoord : TEXCOORD0;
-		fixed2 texcoord1 : TEXCOORD1;
+		fixed2 textcoord : TEXCOORD0;
+		fixed2 nuv : TEXCOORD1;
 
 		float4 color : COLOR;
 		float3 normal : NORMAL;
@@ -60,8 +60,8 @@
 	struct vertexOut
 	{
 		fixed4 finalPos : SV_POSITION;
-		fixed2 texcoord : TEXCOORD0;
-		fixed2 texcoord1 : TEXCOORD1;
+		fixed2 uv : TEXCOORD0;
+		fixed2 nuv : TEXCOORD1;
 
 		fixed3 normalDirection : NORMAL;
 		fixed3 tangentDirection : TEXCOORD4;
@@ -80,8 +80,8 @@
 		vo.tangentDirection = mul(_Object2World, float4(v.tangent, 0.0)).xyz;
 		vo.binormalDirection  = cross(vo.normalDirection, vo.tangentDirection);
 
-		vo.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
-		vo.texcoord1 = TRANSFORM_TEX(v.texcoord1, _BumpTex);
+		vo.uv = TRANSFORM_UV(0);
+		vo.nuv = TRANSFORM_UV(1);
 
 		
 
@@ -93,8 +93,8 @@
 
 	fixed4 frag(vertexOut vo) : COLOR
 	{
-		fixed4 tex = tex2D(_MainTex, vo.texcoord);
-		fixed4 bumpTex = tex2D(_BumpTex, vo.texcoord1); // range is from 0 to 1 to make the range to -1 to 1  = 2*value -1
+		fixed4 tex = tex2D(_MainTex, vo.uv);
+		fixed4 bumpTex = tex2D(_BumpTex, vo.uv); // range is from 0 to 1 to make the range to -1 to 1  = 2*value -1
 
 		//unity store normals in alpha and green channel;
 		float3 localCoordinates = float3(2 * bumpTex.ag - float2(1.0, 1.0), 0);
@@ -178,8 +178,8 @@
 	struct vertexIn
 	{
 		float4 position : POSITION;
-		fixed2 texcoord : TEXCOORD0;
-		fixed2 texcoord1 : TEXCOORD1;
+		fixed2 uv : TEXCOORD0;
+		fixed2 nuv : TEXCOORD1;
 
 		float4 color : COLOR;
 		float3 normal : NORMAL;
@@ -189,8 +189,8 @@
 	struct vertexOut
 	{
 		fixed4 finalPos : SV_POSITION;
-		fixed2 texcoord : TEXCOORD0;
-		fixed2 texcoord1 : TEXCOORD1;
+		fixed2 uv : TEXCOORD0;
+		fixed2 nuv : TEXCOORD1;
 
 		fixed3 normalDirection : NORMAL;
 		fixed3 tangentDirection : TEXCOORD4;
@@ -200,21 +200,21 @@
 		fixed3 posWorld : TEXCOORD7;
 	};
 
-	vertexOut vert(vertexIn v)
+	vertexOut vert(vertexIn vi)
 	{
 		vertexOut vo;
-		vo.finalPos = mul(UNITY_MATRIX_MVP, v.position);
+		vo.finalPos = mul(UNITY_MATRIX_MVP, vi.position);
 
-		vo.normalDirection = mul(_Object2World, float4(v.normal, 0.0)).xyz;
-		vo.tangentDirection = mul(_Object2World, float4(v.tangent, 0.0)).xyz;
+		vo.normalDirection = mul(_Object2World, float4(vi.normal, 0.0)).xyz;
+		vo.tangentDirection = mul(_Object2World, float4(vi.tangent, 0.0)).xyz;
 		vo.binormalDirection = cross(vo.normalDirection, vo.tangentDirection);
 
-		vo.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
-		vo.texcoord1 = TRANSFORM_TEX(v.texcoord1, _BumpTex);
+		vo.uv = TRANSFORM_TEX(vi.uv,_MainTex);
+		vo.nuv = TRANSFORM_TEX(vi.nuv, _BumpTex);
 
 
 
-		float3 posWorld = mul(_Object2World, v.position).xyz;
+		float3 posWorld = mul(_Object2World, vi.position).xyz;
 		vo.viewDirection = normalize(_WorldSpaceCameraPos.xyz - posWorld);
 		vo.posWorld = posWorld;
 		return vo;
@@ -222,10 +222,10 @@
 
 	fixed4 frag(vertexOut vo) : COLOR
 	{
-		fixed4 tex = tex2D(_MainTex, vo.texcoord);
-	fixed4 bumpTex = tex2D(_BumpTex, vo.texcoord1); // range is from 0 to 1 to make the range to -1 to 1  = 2*value -1
+		fixed4 tex = tex2D(_MainTex, vo.uv);
+	fixed4 bumpTex = tex2D(_BumpTex, vo.uv); // range is from 0 to 1 to make the range to -1 to 1  = 2*value -1
 
-													//unity store normals in alpha and green channel;
+											 //unity store normals in alpha and green channel;
 	float3 localCoordinates = float3(2 * bumpTex.ag - float2(1.0, 1.0), 0);
 	localCoordinates.z = (1 - 0.5 * dot(localCoordinates, localCoordinates)) * _Bumpiness;
 	float3x3 tbnMatrix = float3x3
@@ -263,13 +263,13 @@
 
 
 
-	float3 finalColor = diffuseFinal + specular + UNITY_LIGHTMODEL_AMBIENT.xyz;
+	float3 finalColor = diffuseFinal + specular;
 	fixed4 color = float4(finalColor *_LightColor0 * _Color, 0)  * atten;
 
 
 
 
-	return color * tex;
+	return color ;
 	}
 		ENDCG
 	}
