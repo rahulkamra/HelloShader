@@ -1,140 +1,140 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7900
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-15096
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=4 type=0 insize=982 outsize=5393 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON pd= ok=1
 Cmd: preprocess
-  insize=1347 outsize=526 ok=1
+  insize=4855 outsize=638 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (59): undeclared identifier 'TRANSFORM_TEX'\nCompiling Vertex program
-  api=4 type=0 insize=1120 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=1371 outsize=526 ok=1
+  api=4 type=0 insize=2477 outsize=2298 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (59): undeclared identifier '_MainTex_ST'\nCompiling Vertex program
-  api=4 type=0 insize=1144 outsize=0 kw= pd= ok=0
-Cmd: preprocess
-  insize=1392 outsize=526 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1165 outsize=1314 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1165 outsize=1160 kw= pd= ok=1
-Cmd: preprocess
-  insize=999 outsize=1281 ok=1
-Cmd: preprocess
-  insize=4582 outsize=549 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2294 outsize=2216 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2294 outsize=2639 kw= pd= ok=1
+  api=4 type=1 insize=2477 outsize=2988 kw= pd= ok=1
 Cmd: compileSnippet
   api=4 type=0 insize=2347 outsize=2216 kw= pd= ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=2347 outsize=2639 kw= pd= ok=1
 Cmd: preprocess
-  insize=4588 outsize=555 ok=1
+  insize=4856 outsize=639 ok=1
 Cmd: preprocess
-  insize=4630 outsize=596 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2294 outsize=2216 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2294 outsize=2639 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2347 outsize=2216 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2347 outsize=2639 kw= pd= ok=1
+  insize=4854 outsize=637 ok=1
 Cmd: preprocess
-  insize=4694 outsize=601 ok=1
+  insize=2660 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2353 outsize=2216 kw= pd= ok=1
+  api=4 type=0 insize=2473 outsize=2298 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2353 outsize=2639 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2347 outsize=2216 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2347 outsize=2639 kw= pd= ok=1
+  api=4 type=1 insize=2473 outsize=2988 kw= pd= ok=1
 Cmd: preprocess
-  insize=4718 outsize=601 ok=1
+  insize=2723 outsize=487 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (62): undeclared identifier 'TRANSFORM_TEX'\nCompiling Vertex program
-  api=4 type=0 insize=2377 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=2536 outsize=2298 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2536 outsize=2988 kw= pd= ok=1
 Cmd: preprocess
-  insize=4745 outsize=601 ok=1
+  insize=2754 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2404 outsize=2298 kw= pd= ok=1
+  api=4 type=0 insize=2567 outsize=2363 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2404 outsize=2639 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2347 outsize=2216 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2347 outsize=2639 kw= pd= ok=1
+  api=4 type=1 insize=2567 outsize=2988 kw= pd= ok=1
 Cmd: preprocess
-  insize=4792 outsize=602 ok=1
+  insize=2855 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2451 outsize=2298 kw= pd= ok=1
+  api=4 type=0 insize=2668 outsize=2598 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2451 outsize=2850 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2347 outsize=2216 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2347 outsize=2639 kw= pd= ok=1
+  api=4 type=1 insize=2668 outsize=3037 kw= pd= ok=1
 Cmd: preprocess
-  insize=2624 outsize=473 ok=1
+  insize=2910 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2452 outsize=2298 kw= pd= ok=1
+  api=4 type=0 insize=2723 outsize=2598 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2452 outsize=2850 kw= pd= ok=1
+  api=4 type=1 insize=2723 outsize=3037 kw= pd= ok=1
 Cmd: preprocess
-  insize=2617 outsize=466 ok=1
+  insize=2906 outsize=488 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2719 outsize=2598 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2719 outsize=3037 kw= pd= ok=1
 Cmd: preprocess
-  insize=2615 outsize=464 ok=1
+  insize=3140 outsize=488 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (77): undeclared identifier 'normalDirection'\nCompiling Vertex program
+  api=4 type=0 insize=2953 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=4793 outsize=602 ok=1
+  insize=3146 outsize=488 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2959 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2959 outsize=3134 kw= pd= ok=1
 Cmd: preprocess
-  insize=4823 outsize=602 ok=1
+  insize=3150 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2482 outsize=2298 kw= pd= ok=1
+  api=4 type=0 insize=2963 outsize=3216 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2482 outsize=2988 kw= pd= ok=1
+  api=4 type=1 insize=2963 outsize=3134 kw= pd= ok=1
 Cmd: preprocess
-  insize=4815 outsize=601 ok=1
+  insize=3245 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2474 outsize=2298 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2474 outsize=2988 kw= pd= ok=1
+  error: 2 plat 4 at (98): syntax error: unexpected token 'normalDirection'\nCompiling Vertex program
+  error: 2 plat 4 at (117): undeclared identifier 'normalDirection'\nCompiling Vertex program
+  api=4 type=0 insize=3058 outsize=0 kw= pd= ok=0
 Cmd: preprocess
-  insize=4864 outsize=601 ok=1
+  insize=3343 outsize=488 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (104): cannot implicitly convert from 'const float2' to 'float4'\nCompiling Vertex program
-  api=4 type=0 insize=2523 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=3156 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3156 outsize=3134 kw= pd= ok=1
 Cmd: preprocess
-  insize=4864 outsize=601 ok=1
+  insize=3539 outsize=488 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (63): cannot implicitly convert from 'const float2' to 'half4'\nCompiling Vertex program
-  api=4 type=0 insize=2523 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=3352 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3352 outsize=3134 kw= pd= ok=1
 Cmd: preprocess
-  insize=4840 outsize=601 ok=1
+  insize=3587 outsize=488 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (104): cannot implicitly convert from 'const float2' to 'float4'\nCompiling Vertex program
-  api=4 type=0 insize=2499 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=3400 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3400 outsize=4264 kw= pd= ok=1
 Cmd: preprocess
-  insize=4840 outsize=601 ok=1
+  insize=3585 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2499 outsize=2216 kw= pd= ok=1
+  api=4 type=0 insize=3398 outsize=3216 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2499 outsize=2988 kw= pd= ok=1
+  api=4 type=1 insize=3398 outsize=4231 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=982 outsize=6116 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON _NORMALMAP pd= ok=1
 Cmd: preprocess
-  insize=4837 outsize=601 ok=1
+  insize=3584 outsize=488 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2496 outsize=2216 kw= pd= ok=1
+  api=4 type=0 insize=3397 outsize=3216 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2496 outsize=3078 kw= pd= ok=1
+  api=4 type=1 insize=3397 outsize=4207 kw= pd= ok=1
 Cmd: preprocess
-  insize=4860 outsize=601 ok=1
+  insize=3675 outsize=533 ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (104): undeclared identifier 'vi'\nCompiling Vertex program
-  api=4 type=0 insize=2519 outsize=0 kw= pd= ok=0
+  api=4 type=0 insize=3442 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3442 outsize=4272 kw= pd= ok=1
 Cmd: preprocess
-  insize=4819 outsize=601 ok=1
+  insize=3728 outsize=534 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=2478 outsize=2298 kw= pd= ok=1
+  api=4 type=0 insize=3495 outsize=3216 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2478 outsize=2988 kw= pd= ok=1
+  api=4 type=1 insize=3495 outsize=4272 kw= pd= ok=1
+Cmd: preprocess
+  insize=7065 outsize=689 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3489 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3489 outsize=4272 kw= pd= ok=1
+Cmd: preprocess
+  insize=7034 outsize=689 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3458 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3458 outsize=4134 kw= pd= ok=1
+Cmd: preprocess
+  insize=7029 outsize=689 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3453 outsize=3216 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3453 outsize=3947 kw= pd= ok=1
