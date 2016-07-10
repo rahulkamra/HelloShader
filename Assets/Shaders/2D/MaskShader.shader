@@ -14,8 +14,7 @@
 		"Queue" = "Transparent"
 		"IgnoreProjector" = "True"
 		"RenderType" = "Transparent"
-		"PreviewType" = "Plane"
-		"CanUseSpriteAtlas" = "True"
+		
 	}
 
 		Cull Off
@@ -35,6 +34,7 @@
 		uniform sampler2D _MainTex;
 		uniform sampler2D _MaskTexture;
 		float4 _MainTex_ST;
+		float4 _MaskTexture_ST;
 		uniform fixed4 _Color;
 		uniform fixed _Intr;
 
@@ -63,7 +63,7 @@
 		vo.finalPos = mul(UNITY_MATRIX_MVP , vIn.vertex);
 
 		vo.uv = TRANSFORM_TEX(vIn.uv,_MainTex);
-		vo.uv1 = vIn.uv1;
+		vo.uv1 = TRANSFORM_TEX(vIn.uv1, _MaskTexture);
 		vo.color = vIn.color * _Color;
 		return vo;
 	}
@@ -72,9 +72,10 @@
 	fixed4 frag(vertexOut vo) : COLOR
 	{
 		fixed4 tex = tex2D(_MainTex, vo.uv) * vo.color;
-		fixed grayValue = (tex.x + tex.y + tex.z) / 3;
-		fixed4 grayColor = fixed4(grayValue, grayValue, grayValue, tex.w);
-		return lerp(tex, grayColor, _Intr);
+		fixed4 tex2 = tex2D(_MaskTexture, vo.uv1);// *vo.color;
+
+		tex2.w = tex.w * tex2.w;
+		return  tex2;
 
 	}
 
