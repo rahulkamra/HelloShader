@@ -5,7 +5,6 @@
 		_Color("Tint",Color) = (1.0,1.0,1.0,1.0)
 		_MainTex("MainTexture",2D) = "white"{}
 		_MaskTexture("Mask",2D) = "white"{}
-		_Intr("Intr",Range(0,1)) = 1
 	}
 		SubShader
 	{
