@@ -1,4 +1,4 @@
-﻿Shader "2D/Uncharted2ToneMapping"
+﻿Shader "ToneMapping/Uncharted2ToneMapping"
 {
 	Properties
 	{
@@ -70,10 +70,23 @@
 	{
 		float4 ft0 = tex2D(_MainTex, vo.uv);
 
-		color *= _Exposure / (1. + color / _Exposure);
-		color = pow(color, vec3(1. / _Gamma));
-		return color;
+		float3 color = ft0.xyz;
 
+		float A = 0.15;
+		float B = 0.50;
+		float C = 0.10;
+		float D = 0.20;
+		float E = 0.02;
+		float F = 0.30;
+		float W = 11.2;
+		
+		color *= _Exposure;
+		color = ((color * (A * color + C * B) + D * E) / (color * (A * color + B) + D * F)) - E / F;
+		float white = ((W * (A * W + C * B) + D * E) / (W * (A * W + B) + D * F)) - E / F;
+		color /= white;
+		color = pow(color, float(1.0f / _Gamma));
+
+		ft0.xyz = color.xyz;
 		return ft0;
 	}
 

@@ -1,4 +1,4 @@
-﻿Shader "2D/AnselTonMapping"
+﻿Shader "ToneMapping/AnselTonMapping"
 {
 	Properties
 	{
