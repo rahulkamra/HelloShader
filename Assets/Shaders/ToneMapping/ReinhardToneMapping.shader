@@ -4,8 +4,8 @@
 	{
 		_Color("Tint",Color) = (1.0,1.0,1.0,1.0)
 		_MainTex("Texture", 2D) = "white" {}
-		_Exposure("Exposure",Range(0,10)) = 1
-		_Gamma("Gamma",Range(0,10)) = 1
+		_Exposure("Exposure",Range(0,10)) = 1.115
+		_Gamma("Gamma",Range(0,10)) = 2.2
 	}
 		SubShader
 	{
@@ -66,16 +66,29 @@
 		return vo;
 	}
 
+	float4 getExposure(float4 color)
+	{
+		color.xyz *= _Exposure;
+		return color;
+	}
+
 	float4 frag(vertexOut vo) : COLOR
 	{
 		float4 color = tex2D(_MainTex, vo.uv);
-		color = pow(color, 1 / _Gamma);
+		color = getExposure(color);
+
+		//color.xyz = color.xyz / (1 + color.xyz);
+		color.xyz = pow(color.xyz, 1/ _Gamma);
+		return color;
+
 		///color *= _Exposure / (1. + color / _Exposure);
 		//color = pow(color, vec3(1. / _Gamma));
 		//return color;
 
-		return color;
+		
 	}
+
+	
 
 		ENDCG
 	}
