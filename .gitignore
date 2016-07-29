@@ -41,3 +41,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Library
+Library\metadata
+ProjectSettings
+Temp
+.localhistory
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/ProjectVersion.txt

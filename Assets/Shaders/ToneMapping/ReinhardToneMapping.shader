@@ -66,26 +66,12 @@
 		return vo;
 	}
 
-	float4 getExposure(float4 color)
-	{
-		color.xyz *= _Exposure;
-		return color;
-	}
-
 	float4 frag(vertexOut vo) : COLOR
 	{
 		float4 color = tex2D(_MainTex, vo.uv);
-		color = getExposure(color);
-
-		//color.xyz = color.xyz / (1 + color.xyz);
+		color.xyz = color.xyz * _Exposure / (1 + color.xyz / _Exposure);
 		color.xyz = pow(color.xyz, 1/ _Gamma);
-		return color;
-
-		///color *= _Exposure / (1. + color / _Exposure);
-		//color = pow(color, vec3(1. / _Gamma));
-		//return color;
-
-		
+		return color;		
 	}
 
 	
