@@ -68,7 +68,7 @@
 	{
 		//float2 block = float2(_MainTex_TexelSize.x / _PixelSize,_MainTex_TexelSize.x / _PixelSize);
 		float2 uvBlock = float2(vo.uv) / float2(_PixelSize, _PixelSize);
-		uvBlock.xy = (uvBlock.xy - (uvBlock.xy - floor(uvBlock.xy))) * float2(_PixelSize, _PixelSize);
+		uvBlock.xy = floor(uvBlock.xy) * float2(_PixelSize, _PixelSize);
 		return  tex2D(_MainTex, uvBlock.xy);
 
 		//float2 div = float2(_PixelSize * _MainTex_TexelSize.x,_PixelSize* _MainTex_TexelSize.y);
