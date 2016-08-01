@@ -4,7 +4,7 @@
 	{
 		_Color("Tint",Color) = (1.0,1.0,1.0,1.0)
 		_MainTex("MainTexture",2D) = "white"{}
-		_PixelSize("PixelSize",Range(0.00001,1)) = 1
+		_PixelSize("PixelSize",Range(1,100)) = 1
 	}
 		SubShader
 	{
@@ -65,19 +65,11 @@
 
 	//fragmen func
 	float4 frag(vertexOut vo) : COLOR
-	{
-		//float2 block = float2(_MainTex_TexelSize.x / _PixelSize,_MainTex_TexelSize.x / _PixelSize);
-		float2 uvBlock = float2(vo.uv) / float2(_PixelSize, _PixelSize);
-		uvBlock.xy = floor(uvBlock.xy) * float2(_PixelSize, _PixelSize);
-		return  tex2D(_MainTex, uvBlock.xy);
-
-		//float2 div = float2(_PixelSize * _MainTex_TexelSize.x,_PixelSize* _MainTex_TexelSize.y);
-		//float2  ft0 = vo.uv / div.xy;
-		//float2 ft1 = ft0.xy - floor(ft0.xy);
-		//ft0 = ft0 - ft1;
-		//ft0 = ft0 * div;
-		//return  tex2D(_MainTex, ft0.xy);
-		
+	{ 
+		float2 pixelValue = _MainTex_TexelSize.zw * vo.uv;
+		float2 pixelBlock = pixelValue / float2(_PixelSize, _PixelSize);
+		pixelBlock.xy = floor(pixelBlock.xy) * float2(_PixelSize, _PixelSize);
+		return  tex2D(_MainTex, pixelBlock.xy / _MainTex_TexelSize.zw);
 	}
 
 		ENDCG
