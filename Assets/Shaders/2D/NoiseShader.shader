@@ -77,15 +77,24 @@
 	//fragmen func
 	float4 frag(vertexOut vo) : COLOR
 	{
-		float4 tex = tex2D(_MainTex, vo.uv) * vo.color;
+		float4 tex = tex2D(_MainTex, vo.uv);
 		float2 ft1 = vo.uv;
 		ft1.xy = ft1.xy + float2(_SeedX, _SeedY);
-		ft1.x = getRandomNumber(float2(_SeedX, _SeedY)) *_Amount;
-		tex.x = tex.x - ft1.x;
-		tex.y = tex.y - ft1.x;
-		tex.z = tex.z - ft1.x;
+		float ft6 = float2(12.9898f, 78.233f);
+
+		// private var randVars:Vector.<Number> = new <Number>[12.9898, 78.233, 43758.5453, Math.PI]; fc1
+		ft1.x = dot(ft1, ft6);
+		ft1.x = ft1.x / 3.14;
+		ft1.x = frac(ft1.x);
+		ft1.x = ft1.x * 3.14;
+		ft1.x = sin(ft1.x);
+		ft1.x = ft1.x * 43758.5453;
+		ft1.x = frac(ft1.x);
+		ft1.x = ft1.x * _Amount;
+		
+		tex.xyz = ft1.xxx;
 		return tex;
-		return float4(ft1.x, ft1.x, ft1.x,1);
+		
 	}
 
 		ENDCG
