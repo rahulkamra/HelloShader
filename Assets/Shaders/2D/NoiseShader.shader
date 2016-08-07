@@ -65,6 +65,7 @@
 		return vo;
 	}
 
+	//http://byteblacksmith.com/improvements-to-the-canonical-one-liner-glsl-rand-for-opengl-es-2-0/
 	float getRandomNumber(float2 seed)
 	{
 		float a = 12.9898;
@@ -74,29 +75,18 @@
 		float sn = fmod(dt, 3.14);
 		return frac(sin(sn) * c);
 	}
+
+	
 	//fragmen func
 	float4 frag(vertexOut vo) : COLOR
 	{
-		float4 tex = tex2D(_MainTex, vo.uv);
-		float2 ft1 = vo.uv;
-		ft1.xy = ft1.xy + float2(_SeedX, _SeedY);
-		float ft6 = float2(12.9898f, 78.233f);
-
-		// private var randVars:Vector.<Number> = new <Number>[12.9898, 78.233, 43758.5453, Math.PI]; fc1
-		ft1.x = dot(ft1, ft6);
-		ft1.x = ft1.x / 3.14;
-		ft1.x = frac(ft1.x);
-		ft1.x = ft1.x * 3.14;
-		ft1.x = sin(ft1.x);
-		ft1.x = ft1.x * 43758.5453;
-		ft1.x = frac(ft1.x);
-		ft1.x = ft1.x * _Amount;
-		
-		tex.xyz = ft1.xxx;
-		return tex;
+		float4 texColor = tex2D(_MainTex, vo.uv);
+		float2 seed = vo.uv + float2(_SeedX, _SeedY);;
+		float rand = getRandomNumber(seed) * _Amount;
+		texColor.xyz = texColor.xyz - float3(rand, rand, rand);
+		return texColor;
 		
 	}
-
 		ENDCG
 	}
 	}
