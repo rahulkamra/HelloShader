@@ -4,7 +4,15 @@
 	{
 		_Color("Tint",Color) = (1.0,1.0,1.0,1.0)
 		_MainTex("MainTexture",2D) = "white"{}
+		_Density("Density",Range(0,1)) = 0.2
+		_Samples("Samples",Range(0,100)) = 16
+		_Weight("Weight",Range(0,5)) = 1
+		_Decay("Decay",Range(0,5)) = 1.05
+		_LightX("LightX",Range(0,1)) = 0.5
+		_LightY("LightY",Range(0,1)) = 0.5
+
 	}
+
 		SubShader
 	{
 		Tags
@@ -30,9 +38,15 @@
 #pragma fragment frag
 
 		//variables
-		uniform sampler2D _MainTex;
+	uniform sampler2D _MainTex;
 	uniform float4 _Color;
-
+	uniform float _Density;
+	uniform int _Samples;
+	uniform float _Weight;
+	uniform float _Decay;
+	uniform float _LightX;
+	uniform float _LightY;
+	
 	struct vertexIn
 	{
 		float4 vertex:POSITION;
@@ -59,25 +73,31 @@
 		return vo;
 	}
 
+	//https://github.com/stuntrally/stuntrally/blob/master/data/compositor/godrays/godrays.glsl
+
 	//fragmen func
 	float4 frag(vertexOut vo) : COLOR
 	{
-		float2 lightDirection = float2(0.5,0.5);
-		float steps = 20;//fc1.x
-		float density = 2;//fc1.y
+	
+		float2 lightPos = float2(_LightX,_LightY);
+		float2 deltaTexCoord = (vo.uv - lightPos);
 
-		//fc1.z = steps*density;
-		//fc1.w = 1/steps*density;
+		deltaTexCoord *= 1.0f / _Samples * _Density;
+		float4 col = tex2D(_MainTex, vo.uv);
+		float illuminationDecay = 1.0f;
 
-		float weight = 0.5;//fc2.x
-		float decay = 0.87;//fc2.y
-		float exposure = 0.35;//fc2.z
+		float2 uv2 = vo.uv;
 
-		float numSamples = 20;
+		for (int i = 0; i < _Samples; i++)
+		{
+			uv2 -= deltaTexCoord;
+			float4 samp = tex2D(_MainTex, uv2);
+			samp *= illuminationDecay * _Weight;
+			col += samp;
+			illuminationDecay *= _Decay;
+		}
 
-		float2 lightToPixel = vo.uv - lightDirection;
-		float4 tex = tex2D(_MainTex, vo.uv) * vo.color;
-		return tex;
+		return float4(col * 0.04);
 	}
 
 		ENDCG
